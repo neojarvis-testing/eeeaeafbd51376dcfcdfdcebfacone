@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 3.932 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+com.examly.springapp.SpringappApplicationTests.backend_day10testControllerFolder  Time elapsed: 0.588 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day10testControllerFolder(SpringappApplicationTests.java:39)
+
+com.examly.springapp.SpringappApplicationTests.backend_day10testControllerFileTest  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day10testControllerFileTest(SpringappApplicationTests.java:50)
+
+com.examly.springapp.SpringappApplicationTests.backend_day10testWelcomeApi  Time elapsed: 0.08 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day10testWelcomeApi(SpringappApplicationTests.java:58)
+
+com.examly.springapp.SpringappApplicationTests.backend_day11testEntityFolder  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day11testEntityFolder(SpringappApplicationTests.java:71)
+
+com.examly.springapp.SpringappApplicationTests.backend_day11testentityFileTeam  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day11testentityFileTeam(SpringappApplicationTests.java:82)
+
+com.examly.springapp.SpringappApplicationTests.backend_day11testGetAllTeamList  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day11testGetAllTeamList(SpringappApplicationTests.java:91)
+
+com.examly.springapp.SpringappApplicationTests.backend_day12testcontrollerteamFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day12testcontrollerteamFile(SpringappApplicationTests.java:103)
+
+com.examly.springapp.SpringappApplicationTests.backend_day12testserviceteamFile  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day12testserviceteamFile(SpringappApplicationTests.java:113)
+
+com.examly.springapp.SpringappApplicationTests.backend_day12testAddTeam  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day12testAddTeam(SpringappApplicationTests.java:124)
+
+com.examly.springapp.SpringappApplicationTests.backend_day13testGetAllTeam  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day13testGetAllTeam(SpringappApplicationTests.java:136)
+
+com.examly.springapp.SpringappApplicationTests.backend_day14testrepositoryFile  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day14testrepositoryFile(SpringappApplicationTests.java:149)
+
+com.examly.springapp.SpringappApplicationTests.backend_day14testserviceFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day14testserviceFile(SpringappApplicationTests.java:160)
+
+com.examly.springapp.SpringappApplicationTests.backend_day14testAddPlayer  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day14testAddPlayer(SpringappApplicationTests.java:173)
+
+com.examly.springapp.SpringappApplicationTests.backend_day14testGetAllPlayer  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day14testGetAllPlayer(SpringappApplicationTests.java:186)
+
+com.examly.springapp.SpringappApplicationTests.backend_day16testServiceOrganizerFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day16testServiceOrganizerFile(SpringappApplicationTests.java:199)
+
+com.examly.springapp.SpringappApplicationTests.backend_day17testExceptionFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day17testExceptionFile(SpringappApplicationTests.java:210)
+
+com.examly.springapp.SpringappApplicationTests.backend_day18testcontrollerOrganizerFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day18testcontrollerOrganizerFile(SpringappApplicationTests.java:220)
+
+com.examly.springapp.SpringappApplicationTests.backend_day18getallSoldPlayer  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.backend_day18getallSoldPlayer(SpringappApplicationTests.java:228)
+
+com.examly.springapp.SpringappApplicationTests.backend_day19testEntityUserFile  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day19testEntityUserFile(SpringappApplicationTests.java:240)
+
+com.examly.springapp.SpringappApplicationTests.backend_day20testCorsUserFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.backend_day20testCorsUserFile(SpringappApplicationTests.java:250)
+
